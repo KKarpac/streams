@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>I HAVE A STREAM</h1>
+    <h1>STREAM DREAM</h1>
     <h3>All of the current streams in one place.</h3>
   </div>
 
