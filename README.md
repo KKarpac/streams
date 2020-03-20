@@ -6,7 +6,7 @@ Livestream can be coming from facebook, twitch. Able to add others upon request.
 
 ## User flow 
 
-Start with a page where you can see the current livestrams happening. All muted but playing. 
+Start with a page where you can see the current livestrams happening. Facebook iframe and Twitch Embeded player are delfault muted. 
 Below a combine list of uncoming streams - the ones starting shortly.
 
 Think three revolving pages. 
