@@ -5,14 +5,29 @@
     width="500" height="281" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
     allow="encrypted-media" allowFullScreen="true">
   </iframe>
+    <StreamInstance :streams="this.streams" />
   </div>
 </template>
 
 <script>
+import getAllStreams from './util/getStreams';
+import StreamInstance from './StreamInstance';
+
 export default {
-  name: 'stream',
+  name: 'Stream',
   props: {
     msg: String
+  },
+  components: {
+    StreamInstance
+  },
+  data() {
+    return { 
+      streams: getAllStreams()
+    }
+  },
+  mounted() {
+     // 
   }
 }
 </script>

@@ -2,20 +2,20 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/live-streaming.svg" height="250px">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <stream msg="Check it out"/>
+    <Stream msg="Check it out"/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import stream from './components/stream.vue'
+import Stream from './components/Stream.vue'
 
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    stream
+    Stream
   }
 }
 </script>
