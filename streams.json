@@ -1,0 +1,19 @@
+{
+  "streams": [
+    {
+      "name": "Maxam1337", 
+      "url": "https://www.twitch.tv/maxam1337",
+      "when": "04/10/2020"
+    }, 
+    {
+      "name": "Chrystal Chris", 
+      "url": "https://www.twitch.tv/christalchris",
+      "when": "04/10/2020"
+    },
+    {
+      "name": "djice", 
+      "url": "https://www.twitch.tv/djice",
+      "when": "04/10/2020"
+    }
+  ]
+}
